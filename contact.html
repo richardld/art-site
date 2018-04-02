@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="actual.css">
+
+	</head>
+
+	<body>
+		<h1><a  href="actualwebsite.html" style="color: white; text-decoration: none;">Work Showcase</a></h1>
+		<table>
+			<tr>
+				<th class="link-item"><a class="link-white" href="about.html">About</a></th>
+				<th class="link-item"><a class="link-white" href="art.html">Artwork</a></th>
+				<th class="link-item"><a class="link-white" href="contact.html">Contact</a></th>
+				<th class="link-item"><a class="link-white" href="shop.html">Shop</a></th>
+			</tr>
+		</table>
+
+		<h2>Contact</h2>
+  		<h4>First name:</h4><br>
+  		<input type="text" name="firstname" value="Mickey" id="f1" style="margin-left: 75px;">
+  		<br>
+  		<h4>Last name:</h4><br>
+  		<input type="text" name="lastname" value="Mouse" id="f2" style="margin-left: 75px;">
+  		<br>
+		<h4>Email address:</h4><br>
+  		<input type="text" name="emailaddress" value="mm@mail.com" id="f3" style="margin-left: 75px;">
+  		<br><br>
+  		<input type="submit" value="Submit" style="background-color: #008CBA; color: white; margin-left: 75px;" onclick="contactButton()">
+		<script>
+			function contactButton() {
+				document.getElementById("f1").value = "";
+				document.getElementById("f2").value = "";
+				document.getElementById("f3").value = "";
+			}
+		</script>
+		
+		<p>Be sure to check out the shop!</p>
+		
+
+	</body>
+
+</html>

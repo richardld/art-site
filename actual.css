@@ -1,0 +1,78 @@
+body {
+	height: 100%;
+	background-image: url("bgimg.jpg");
+	background-size: 100%;
+	font-family: "Bookman Old Style";
+} 
+
+html {
+	height: 100%;
+}
+
+h1 {
+	color: white;
+	margin-left: 50px;
+}
+
+h2 {
+	color: white;
+	margin: 50px;
+}
+
+h3 {
+	color: white;
+	margin: 50px;
+}
+
+h4 {
+	color: white;
+	margin-left: 75px;
+	font-family: "Bookman Old Style";
+	font-size: 18px;
+}
+
+p {
+	color: white;
+	text-align: center;
+	margin: 25px;
+	font-family: "Bookman Old Style";
+	font-size: 32px;
+}
+
+figure {
+	text-align: center;
+	color: white;
+	font-family: "Bookman Old Style";
+	font-size: 24px;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid;
+    border-color: whitesmoke;
+}
+
+.grid-container {
+	display: grid;
+}
+
+.link-item {
+	padding-left: 100px;
+	padding-top: 10px;
+	padding-right: 100px;
+	font-size: 14px;
+	font-family: "Bookman Old Style";
+	text-align: center;
+	color: white;
+}
+
+.link-white {
+	font-size: 18px;
+	font-family: "Bookman Old Style";
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+}
